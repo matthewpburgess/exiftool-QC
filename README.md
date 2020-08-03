@@ -32,3 +32,6 @@ ICCProfileName |
 ProfileDescription | 
 
 ***Note:*** The ExifTool command can be altered to include additional information about each file such as filename and MIMEType, but note that this may minimise error messages. For example, including those fields for extracting metadata on AppleDouble system files or a corrupt TIFF file where the other metadata tags cannot be read excludes error messages in the log such as "Error: File format error" and "Warning: Bad format (30908) for IFD0 entry 0".
+
+## Customising the script
+It may be more useful to run this script on digital material stored on an external devices such as a USB or hard drive before acquisition. Assuming that external devices are mapped to the same drive letter every time, you can change the target directory from "..\data" to the drive letter, H:\ for example. Note that the CSV and log exports to the same location as the batch script, so you might like to store the script on a local drive in a folder called exiftool-QC.
